@@ -1,23 +1,26 @@
-# Email & Workflow Assets
+MIT License
 
-This repository houses the public-facing static images and assets used in our automated email workflows, Outlook signatures, and Power Automate flows. 
+Copyright (c) 2026 Ty Schrader
 
-⚠️ **CRUCIAL RULE:** Do not delete, rename, or move any images in this repository. Doing so will instantly break the images in all active, automated emails currently being sent out to recipients.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-## How to use these assets in HTML
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-To use an image from this repository in an email or HTML code, do not copy the standard browser URL. Instead, follow these steps to get the "Raw" CDN link:
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-1. Click on the image file in GitHub.
-2. Click the **Download** or **View raw** button.
-3. Copy the URL from your address bar (it should begin with `https://raw.githubusercontent.com/...`).
-4. Paste that URL directly into your HTML `<img src="...">` tag.
+---
 
-## Active Assets Tracker
-
-| Asset Name | Description | Target Flow / Usage |
-| :--- | :--- | :--- |
-| `kelley-logo.png` | Main company header logo | Automated Email Signatures |
-| `facebook-icon.png` | Social media linking icon | Email Signature Footer |
-| `youtube-icon.png` | Social media linking icon | Email Signature Footer |
-| `linkedin-icon.png` | Social media linking icon | Email Signature Footer |
+TRADEMARK & BRANDING NOTICE:
+The MIT License above applies strictly to the code structure and configuration files of this repository. All logos, brand names, trademarks, and corporate images contained within this repository (including but not limited to the Kelley Engineered Equipment logo and branding assets) are the exclusive property of their respective owners. No license, permission, or right is granted to reuse, modify, or redistribute these proprietary brand assets for any external or commercial purposes.
